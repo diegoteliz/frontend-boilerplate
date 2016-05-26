@@ -1,0 +1,62 @@
+TODO: delete this file
+
+Structure
+
+	|css
+		|lib
+		✓style.css
+		✓style.css.map
+	|img
+	|js
+		|lib
+			✓jquery.js
+		✓scripts.min.js
+	|src
+		|js
+			✓scripts.js
+		|js-spa-angular
+		|js-spa-backbone
+		|sass
+			|base
+				✓config
+				✓mixins
+				✓reset
+			|components
+				✓animations
+				✓buttons
+				✓global
+				✓navigation
+			|pages
+			|vendors
+			✓style.scss
+	|templates
+	|templates-handlebars
+	|templates-nunjucks
+	✓Gruntfile.js
+	✓Gruntfile-spa.js (Backbone and Angular)
+	P gulpfile.js
+	✓gulpfile-spa.js (Backbone and Angular)
+	✓index.html
+	✓index-components.html
+	✓index-spa-backbone.html
+	P package-grunt.json
+	P package-gulp.json
+
+TODO:
+	add grids
+	add instructions to readme
+	improve open/close menu js (create functions)
+
+
+---
+
+code-snippets
+	|snippets
+		|example-snippet
+			|snippet-subfolder (optional)
+			snippet-sass.scss
+			snippet-js.js
+			snippet-html.html (html which is not related to the snippet whould be commented out)
+			snippet (optional - all code here)
+			index.html (snippet working {inline code})
+	index.html (link+list of snippets)
