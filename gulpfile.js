@@ -5,7 +5,7 @@ var gulp            = require('gulp'),
     csslint         = require('gulp-csslint'),
     header          = require('gulp-header'),
     jshint          = require('gulp-jshint'),
-    pkg             = require('./package.json')
+    pkg             = require('./package.json'),
     sass            = require('gulp-sass'),
     sourcemaps      = require('gulp-sourcemaps'),
     uglify          = require('gulp-uglify');
@@ -14,18 +14,21 @@ var gulp            = require('gulp'),
 var app = {
     
         path: {
-            srcDir  : 'src',
-            cssDir  : 'css',
-            jsDir   : 'js',
-            jsSrcDir: 'src/js',
-            jsApp   : 'src/js/scripts.js',
-            sassFiles: [
+            srcDir      : 'src',
+            cssDir      : 'css',
+            jsDir       : 'js',
+            jsSrcDir    : 'src/js',
+            jsApp       : 'src/js/scripts.js',
+            
+            sassFiles   : [
                 'src/sass/**/*.scss'
             ],
-            jsSrcFiles: [
+            
+            jsSrcFiles  : [
                 'src/js/**/*.js'
             ],
-            htmlFiles: [
+            
+            htmlFiles   : [
                 '**/*.html'
             ]
         },
