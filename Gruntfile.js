@@ -124,7 +124,7 @@ module.exports = function(grunt) {
             },
             dev: {
                 files: {
-                    'js/scripts.min.js' : ['<%= app.path.src %>/js/scripts.js']
+                    'js/scripts.js' : ['<%= app.path.src %>/js/scripts.js']
                 }
             }
 

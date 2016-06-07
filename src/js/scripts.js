@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
         $menu               = $('.main-nav'),
         $optionsMenu        = $('.options-menu'),
         $overlay            = $('.overlay'),
-        $navItem            = $('.nav-item'), 
+        $navItem            = $('.nav-item'),
         $navLink            = $('.nav-link'),
         windowHeight        = $window.height(),
         windowWidth         = $window.width(),
