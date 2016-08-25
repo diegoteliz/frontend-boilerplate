@@ -107,8 +107,8 @@
     display: block;
     height: 100%;
     left: -($main-nav-width);
-    position: fixed;
     overflow: auto;
+    position: fixed;
     top: $main-header-height;
     transition: $transition-secondary;
     width: $main-nav-width;
@@ -123,9 +123,9 @@
 .nav-item {
     display: block;
     opacity: 0;
-    visibility: hidden;
     transform: translateX(-100px);
     transition: $transition-secondary;
+    visibility: hidden;
 }
 .main-nav.opened .nav-item {
     opacity: 1;

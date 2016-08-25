@@ -112,7 +112,6 @@ jQuery(document).ready(function($) {
         closeAll();
     });
 
-
     // General keydowns
     $window.keydown(function(event) {
         
