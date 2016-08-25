@@ -10,10 +10,10 @@ Structure
     |js
         |lib
             ✓jquery.js
-        ✓scripts.js
+        ✓app.js
     |src
         |js
-            ✓scripts.js
+            ✓app.js
         |js-spa-angular
         |js-spa-backbone
         |sass

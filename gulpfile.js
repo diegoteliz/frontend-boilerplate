@@ -18,7 +18,7 @@ var app = {
             cssDir      : 'css',
             jsDir       : 'js',
             jsSrcDir    : 'src/js',
-            jsApp       : 'src/js/scripts.js',
+            jsApp       : 'src/js/app.js',
             
             sassFiles   : [
                 'src/sass/**/*.scss'

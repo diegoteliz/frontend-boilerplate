@@ -85,7 +85,7 @@ module.exports = function(grunt) {
             },
             src: [
                 'Gruntfile.js',
-                '<%= app.path.src %>/js/scripts.js'
+                '<%= app.path.src %>/js/app.js'
             ]
         },
 
@@ -124,7 +124,7 @@ module.exports = function(grunt) {
             },
             dev: {
                 files: {
-                    'js/scripts.js' : ['<%= app.path.src %>/js/scripts.js']
+                    'js/app.js' : ['<%= app.path.src %>/js/app.js']
                 }
             }
 
