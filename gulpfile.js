@@ -56,11 +56,12 @@ var app = {
         'floats'                        : true,
         'font-faces'                    : true,
         'font-sizes'                    : false,
-        'gradients'                     : true,
+        'gradients'                     : false,
         'ids'                           : true,
         'import'                        : true,
         'important'                     : true,
         'known-properties'              : true,
+        'order-alphabetical'            : false, // Deactivated due to error with vendor prefixes
         'outline-none'                  : false,
         'overqualified-elements'        : true,
         'qualified-headings'            : false,
@@ -97,7 +98,7 @@ gulp.task('sass', function() {
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(csslint(csslintOptions))
-        .pipe(csslint.reporter())
+        .pipe(csslint.formatter())
         .pipe(sourcemaps.write('./'))
         .pipe(header(app.banner, {pkg: pkg}))
         .pipe(gulp.dest(app.path.cssDir))
