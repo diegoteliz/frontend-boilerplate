@@ -71,6 +71,14 @@ $max-width                  : $desktop-medium !default;
 $main-header-height         : 50px !default;
 $main-nav-width             : 280px !default;
 
+// Grid
+$num-cols                   : 12 !default;
+$gutter-width               : 1.5rem !default;
+$element-top-margin         : $gutter-width/3 !default;
+$element-bottom-margin      : ($gutter-width*2)/3 !default;
+$grid-breakpoint-m          : $tablet;
+$grid-breakpoint-l          : $desktop-small;
+
 // Z-index
 $z-below-bottom             : -1 !default;
 $z-bottom                   : 0 !default;
