@@ -21,6 +21,11 @@ body {
     overflow-x: hidden;
 }
 
+::selection {
+    background: $brand-color;
+    color: $font-color-secondary;
+}
+
 h1,
 .heading-1 {
     color: $font-color-primary;
