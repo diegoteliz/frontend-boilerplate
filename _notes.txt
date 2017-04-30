@@ -50,16 +50,3 @@ TODO:
                 https://gist.github.com/tcarlsen/3ff4c9032f55e4ab1358
             http://sassdoc.com/
             change jshint by jscs or ESlint (https://github.com/adametry/gulp-eslint)
-
----
-
-code-snippets
-    |snippets
-        |example-snippet
-            |snippet-subfolder (optional)
-            snippet-sass.scss
-            snippet-js.js
-            snippet-html.html (html which is not related to the snippet whould be commented out)
-            snippet (optional - all code here)
-            index.html (snippet working {inline code})
-    index.html (link+list of snippets)
