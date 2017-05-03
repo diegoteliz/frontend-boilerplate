@@ -5,6 +5,7 @@
 html {
     font-size: $font-size-base;
     height: 100%;
+    line-height: 1;
     overflow-x: hidden;
 }
 
@@ -134,6 +135,14 @@ em {
 img {
     height: auto;
     max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+textarea {
+    resize: vertical;
 }
 
 p,
