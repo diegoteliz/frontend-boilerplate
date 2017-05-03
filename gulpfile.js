@@ -72,7 +72,7 @@ var app = {
         'underscore-property-hack'      : true,
         'unique-headings'               : false,
         'universal-selector'            : false,
-        'unqualified-attributes'        : true,
+        'unqualified-attributes'        : false,
         'vendor-prefix'                 : true,
         'zero-units'                    : true
     },

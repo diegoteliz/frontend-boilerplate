@@ -1,10 +1,8 @@
 @charset "utf-8";
 
-//Reset
-@import "base/_reset";
-
 // Vendors
-//@import "vendors/...";
+@import "vendors/_normalize";
+//@import "vendors/_reset"; // (optional)
 
 // Base
 @import "base/_config";
