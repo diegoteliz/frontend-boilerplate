@@ -14,7 +14,6 @@ Structure
     |src
         |js
             ✓app.js
-        |js-spa-angular
         |js-spa-backbone
         |sass
             |base
@@ -33,7 +32,7 @@ Structure
     |templates-handlebars
     |templates-nunjucks
     ✓gulpfile.js
-    ✓gulpfile-spa.js (Backbone and Angular)
+    ✓gulpfile-spa.js (Backbone)
     ✓index.html
     ✓index-components.html
     ✓index-spa-backbone.html
