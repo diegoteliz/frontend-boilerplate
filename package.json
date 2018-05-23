@@ -3,7 +3,7 @@
   "title": "Frontend Boilerplate",
   "version": "1.0.0",
   "description": "Personal boilerplate to start Frontend Applications",
-  "year": "2016",
+  "year": "2018",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1"
